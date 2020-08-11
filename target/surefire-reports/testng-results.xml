@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19349" started-at="2020-08-11T06:52:33Z" finished-at="2020-08-11T06:52:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19349" started-at="2020-08-11T06:52:33Z" finished-at="2020-08-11T06:52:52Z">
+      <class name="TestCases.LoginTest">
+        <test-method status="PASS" signature="Launch()[pri:0, instance:TestCases.LoginTest@71248c21]" name="Launch" is-config="true" duration-ms="12157" started-at="2020-08-11T06:52:21Z" finished-at="2020-08-11T06:52:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="forget()[pri:0, instance:TestCases.LoginTest@71248c21]" name="forget" duration-ms="2764" started-at="2020-08-11T06:52:33Z" finished-at="2020-08-11T06:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forget -->
+        <test-method status="PASS" signature="login()[pri:0, instance:TestCases.LoginTest@71248c21]" name="login" duration-ms="13409" started-at="2020-08-11T06:52:36Z" finished-at="2020-08-11T06:52:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="close()[pri:0, instance:TestCases.LoginTest@71248c21]" name="close" is-config="true" duration-ms="607" started-at="2020-08-11T06:52:52Z" finished-at="2020-08-11T06:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCases.LoginTest -->
+      <class name="TestCases.HomeTest">
+        <test-method status="PASS" signature="Logout()[pri:0, instance:TestCases.HomeTest@442675e1]" name="Logout" duration-ms="3085" started-at="2020-08-11T06:52:49Z" finished-at="2020-08-11T06:52:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- TestCases.HomeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
